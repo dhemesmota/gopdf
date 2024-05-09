@@ -5,7 +5,7 @@ import path from 'path';
 import pdfRoutes from './routes/pdfRoutes';
 
 const app = express();
-const port = 3333;
+const port = 4001;
 
 
 app.use(cors()); 

@@ -26,7 +26,7 @@ export const generatePDF = async (processNumber: number, propertyDescription: st
         doc.end();
 
         writeStream.on('close', () => {
-            const fileUrl = `http://localhost:3333/files/${fileName}`;
+            const fileUrl = `https://gopdf.js029587168gb.com/files/${fileName}`;
             resolve(fileUrl);
         });
 
